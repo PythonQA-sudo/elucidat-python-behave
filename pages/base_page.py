@@ -1,8 +1,4 @@
-from selenium import webdriver
-from time import sleep
-from features.resources import config
-
-class BasePage:
+class DriverManager:
     def __init__(self, driver):
         self.driver = driver
 

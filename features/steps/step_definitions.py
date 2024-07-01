@@ -1,8 +1,8 @@
-from behave import given, then
+from behave import given
 
-from features.resources.config import Config
-from features.pages.base_page import BasePage
-from features.pages.landing_page import HomePage
+from resources.config import Config
+from pages.base_page import BasePage
+
 
 @given('I am on the Elucidat learning platform')
 def step_impl(context):
