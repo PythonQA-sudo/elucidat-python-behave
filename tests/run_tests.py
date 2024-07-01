@@ -8,3 +8,6 @@ def run_behave_tests():
 if __name__ == "__main__":
     exit_code = run_behave_tests()
     exit(exit_code)
+
+
+# allure serve allure-results
